@@ -1,9 +1,10 @@
 success
-Last metadata expiration check: 1:33:38 ago on Wed Jun  2 19:28:06 2021.
-Package nfs-utils-1:2.3.3-35.el8.x86_64 is already installed.
+Last metadata expiration check: 0:37:33 ago on Fri Jun  4 16:59:57 2021.
+Package nfs-utils-1:2.3.3-41.el8.x86_64 is already installed.
 Dependencies resolved.
 Nothing to do.
 Complete!
+success
 success
 success
 success

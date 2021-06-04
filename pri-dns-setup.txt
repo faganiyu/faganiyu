@@ -25,22 +25,22 @@ pri-dns.faganiyu.ops | SUCCESS => {
             "root": "/dev/mapper/cl-root"
         },
         "ansible_date_time": {
-            "date": "2021-06-02",
-            "day": "02",
-            "epoch": "1622680747",
-            "hour": "20",
-            "iso8601": "2021-06-03T00:39:07Z",
-            "iso8601_basic": "20210602T203907017171",
-            "iso8601_basic_short": "20210602T203907",
-            "iso8601_micro": "2021-06-03T00:39:07.017171Z",
-            "minute": "39",
+            "date": "2021-06-04",
+            "day": "04",
+            "epoch": "1622839690",
+            "hour": "16",
+            "iso8601": "2021-06-04T20:48:10Z",
+            "iso8601_basic": "20210604T164810814583",
+            "iso8601_basic_short": "20210604T164810",
+            "iso8601_micro": "2021-06-04T20:48:10.814583Z",
+            "minute": "48",
             "month": "06",
-            "second": "07",
-            "time": "20:39:07",
+            "second": "10",
+            "time": "16:48:10",
             "tz": "EDT",
             "tz_offset": "-0400",
-            "weekday": "Wednesday",
-            "weekday_number": "3",
+            "weekday": "Friday",
+            "weekday_number": "5",
             "weeknumber": "22",
             "year": "2021"
         },
@@ -448,13 +448,13 @@ pri-dns.faganiyu.ops | SUCCESS => {
             "SELINUX_USE_CURRENT_RANGE": "",
             "SHELL": "/bin/bash",
             "SHLVL": "2",
-            "SSH_CLIENT": "192.168.10.1 56908 22",
-            "SSH_CONNECTION": "192.168.10.1 56908 192.168.10.2 22",
+            "SSH_CLIENT": "192.168.10.1 57218 22",
+            "SSH_CONNECTION": "192.168.10.1 57218 192.168.10.2 22",
             "SSH_TTY": "/dev/pts/0",
             "TERM": "xterm-256color",
             "USER": "student",
             "XDG_RUNTIME_DIR": "/run/user/1000",
-            "XDG_SESSION_ID": "27",
+            "XDG_SESSION_ID": "31",
             "_": "/usr/libexec/platform-python"
         },
         "ansible_fibre_channel_wwn": [],
@@ -465,8 +465,8 @@ pri-dns.faganiyu.ops | SUCCESS => {
         "ansible_hostnqn": "",
         "ansible_interfaces": [
             "ens224",
-            "ens192",
-            "lo"
+            "lo",
+            "ens192"
         ],
         "ansible_is_chroot": false,
         "ansible_iscsi_iqn": "",
@@ -560,16 +560,16 @@ pri-dns.faganiyu.ops | SUCCESS => {
         "ansible_lsb": {},
         "ansible_machine": "x86_64",
         "ansible_machine_id": "43d3e9e9d45c4e7d95029e1344fecf0a",
-        "ansible_memfree_mb": 1359,
+        "ansible_memfree_mb": 1352,
         "ansible_memory_mb": {
             "nocache": {
-                "free": 1584,
-                "used": 242
+                "free": 1586,
+                "used": 240
             },
             "real": {
-                "free": 1359,
+                "free": 1352,
                 "total": 1826,
-                "used": 467
+                "used": 474
             },
             "swap": {
                 "cached": 0,
@@ -581,18 +581,18 @@ pri-dns.faganiyu.ops | SUCCESS => {
         "ansible_memtotal_mb": 1826,
         "ansible_mounts": [
             {
-                "block_available": 4064622,
+                "block_available": 4063914,
                 "block_size": 4096,
                 "block_total": 4452864,
-                "block_used": 388242,
+                "block_used": 388950,
                 "device": "/dev/mapper/cl-root",
                 "fstype": "xfs",
-                "inode_available": 8876966,
+                "inode_available": 8877049,
                 "inode_total": 8910848,
-                "inode_used": 33882,
+                "inode_used": 33799,
                 "mount": "/",
                 "options": "rw,seclabel,relatime,attr2,inode64,noquota",
-                "size_available": 16648691712,
+                "size_available": 16645791744,
                 "size_total": 18238930944,
                 "uuid": "340c51dc-89fd-42e3-9a74-da365fa7f126"
             },
@@ -684,7 +684,7 @@ pri-dns.faganiyu.ops | SUCCESS => {
         ],
         "ansible_system_capabilities_enforced": "True",
         "ansible_system_vendor": "VMware, Inc.",
-        "ansible_uptime_seconds": 149335,
+        "ansible_uptime_seconds": 308279,
         "ansible_user_dir": "/home/student",
         "ansible_user_gecos": "Student",
         "ansible_user_gid": 100,
