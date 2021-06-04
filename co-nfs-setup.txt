@@ -25,22 +25,22 @@ co-nfs.faganiyu.ops | SUCCESS => {
             "root": "/dev/mapper/cl-root"
         },
         "ansible_date_time": {
-            "date": "2021-06-02",
-            "day": "02",
-            "epoch": "1622680789",
-            "hour": "20",
-            "iso8601": "2021-06-03T00:39:49Z",
-            "iso8601_basic": "20210602T203949433881",
-            "iso8601_basic_short": "20210602T203949",
-            "iso8601_micro": "2021-06-03T00:39:49.433881Z",
-            "minute": "39",
+            "date": "2021-06-04",
+            "day": "04",
+            "epoch": "1622839798",
+            "hour": "16",
+            "iso8601": "2021-06-04T20:49:58Z",
+            "iso8601_basic": "20210604T164958658139",
+            "iso8601_basic_short": "20210604T164958",
+            "iso8601_micro": "2021-06-04T20:49:58.658139Z",
+            "minute": "49",
             "month": "06",
-            "second": "49",
-            "time": "20:39:49",
+            "second": "58",
+            "time": "16:49:58",
             "tz": "EDT",
             "tz_offset": "-0400",
-            "weekday": "Wednesday",
-            "weekday_number": "3",
+            "weekday": "Friday",
+            "weekday_number": "5",
             "weeknumber": "22",
             "year": "2021"
         },
@@ -448,13 +448,13 @@ co-nfs.faganiyu.ops | SUCCESS => {
             "SELINUX_USE_CURRENT_RANGE": "",
             "SHELL": "/bin/bash",
             "SHLVL": "2",
-            "SSH_CLIENT": "192.168.10.1 48822 22",
-            "SSH_CONNECTION": "192.168.10.1 48822 192.168.10.3 22",
+            "SSH_CLIENT": "192.168.10.1 49132 22",
+            "SSH_CONNECTION": "192.168.10.1 49132 192.168.10.3 22",
             "SSH_TTY": "/dev/pts/0",
             "TERM": "xterm-256color",
             "USER": "student",
             "XDG_RUNTIME_DIR": "/run/user/1000",
-            "XDG_SESSION_ID": "59",
+            "XDG_SESSION_ID": "68",
             "_": "/usr/libexec/platform-python"
         },
         "ansible_fibre_channel_wwn": [],
@@ -464,9 +464,9 @@ co-nfs.faganiyu.ops | SUCCESS => {
         "ansible_hostname": "co-nfs",
         "ansible_hostnqn": "",
         "ansible_interfaces": [
-            "lo",
             "ens192",
-            "ens224"
+            "ens224",
+            "lo"
         ],
         "ansible_is_chroot": false,
         "ansible_iscsi_iqn": "",
@@ -560,16 +560,16 @@ co-nfs.faganiyu.ops | SUCCESS => {
         "ansible_lsb": {},
         "ansible_machine": "x86_64",
         "ansible_machine_id": "43d3e9e9d45c4e7d95029e1344fecf0a",
-        "ansible_memfree_mb": 323,
+        "ansible_memfree_mb": 327,
         "ansible_memory_mb": {
             "nocache": {
-                "free": 1410,
-                "used": 415
+                "free": 1418,
+                "used": 407
             },
             "real": {
-                "free": 323,
+                "free": 327,
                 "total": 1825,
-                "used": 1502
+                "used": 1498
             },
             "swap": {
                 "cached": 0,
@@ -581,18 +581,18 @@ co-nfs.faganiyu.ops | SUCCESS => {
         "ansible_memtotal_mb": 1825,
         "ansible_mounts": [
             {
-                "block_available": 4011486,
+                "block_available": 4010808,
                 "block_size": 4096,
                 "block_total": 4452864,
-                "block_used": 441378,
+                "block_used": 442056,
                 "device": "/dev/mapper/cl-root",
                 "fstype": "xfs",
-                "inode_available": 8873747,
+                "inode_available": 8873816,
                 "inode_total": 8910848,
-                "inode_used": 37101,
+                "inode_used": 37032,
                 "mount": "/",
                 "options": "rw,seclabel,relatime,attr2,inode64,noquota",
-                "size_available": 16431046656,
+                "size_available": 16428269568,
                 "size_total": 18238930944,
                 "uuid": "340c51dc-89fd-42e3-9a74-da365fa7f126"
             },
@@ -684,7 +684,7 @@ co-nfs.faganiyu.ops | SUCCESS => {
         ],
         "ansible_system_capabilities_enforced": "True",
         "ansible_system_vendor": "VMware, Inc.",
-        "ansible_uptime_seconds": 543948,
+        "ansible_uptime_seconds": 702957,
         "ansible_user_dir": "/home/student",
         "ansible_user_gecos": "Student",
         "ansible_user_gid": 100,
